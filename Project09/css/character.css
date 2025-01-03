@@ -1,0 +1,120 @@
+/* 共通スタイル */
+body {
+    font-family: Lato, 'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #89949e;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: Pacifico, sans-serif;
+    font-size: 36px;
+    color: #4ac0b9;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #4ac0b9;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* フォームのスタイル */
+  form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    color: #322f33;
+    margin: 10px 0 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dae1e7;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 100%;
+    height: 48px;
+    background-color: #42c7c1;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #3ab1aa;
+  }
+  
+  /* テーブルのスタイル */
+  table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dae1e7;
+  }
+  
+  th {
+    background-color: #42c7c1;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  td a {
+    text-decoration: none;
+    color: #4ac0b9;
+    font-size: 16px;
+  }
+  
+  td a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ボタンリンク */
+  a {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #42c7c1;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+  }
+  
+  a:hover {
+    background-color: #3ab1aa;
+  }
+  
