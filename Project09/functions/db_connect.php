@@ -21,14 +21,6 @@
                     $db_host = 'localhost'; //DBホスト
                     $pdo = new PDO('mysql:dbname=' . $db_name . ';charset=utf8;host=' . $db_host, $db_id, $db_pw);
           
-                    // try {
-                // $dsn = 'mysql:dbname=kaz224_project_db; charset=utf8mb4; host=mysql3104.db.sakura.ne.jp';
-                // $user = 'kaz224_project_db';
-                // $password = 'f0820008';
-                // PDOインスタンスを作成
-                // $pdo = new PDO($dsn, $user, $password);
-                
-                
                 // 成功メッセージ
                 echo 'データベース接続に成功しました！';
                 return $pdo;
